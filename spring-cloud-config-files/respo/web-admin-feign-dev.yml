@@ -8,6 +8,9 @@ spring:
     servlet:
       content-type: text/html
 
+  zipkin:
+    base-url: http://192.168.109.128:9411/zipkin/
+
 server:
   port: 8765
 
