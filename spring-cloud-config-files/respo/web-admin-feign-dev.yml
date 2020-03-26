@@ -11,6 +11,11 @@ spring:
   zipkin:
     base-url: http://192.168.109.128:9411
 
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084/
+
 server:
   port: 8765
 
